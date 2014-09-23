@@ -1,9 +1,11 @@
 emailgo
 =======
+[full API reference](https://github.com/hioop/emailgo/edit/master/README.md "full API reference")
+用户找回密码或者用户注册时，使用邮箱进行验证，根据邮箱地址进行自动跳转到相应的email网站
 
-用户找回密码或者用户注册时，使用邮箱进行验证，根据邮箱地址进行自动跳转到相应的emaile网站
-
-
+#title
+```javascript
+<script>
 (function(){
 	$(document).ready(function(){
 		$("#link_login_email").on("click",function(){
@@ -19,3 +21,7 @@ emailgo
 	});
 	
 })();
+</script>
+```
+[my website](http://www.hioop.net "my website!")
+ 
